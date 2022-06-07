@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A41B48E284FC29D0054A43C /* PAMOVAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B48D284FC29D0054A43C /* PAMOVAApp.swift */; };
+		2A41B490284FC29D0054A43C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B48F284FC29D0054A43C /* ContentView.swift */; };
+		2A41B492284FC29E0054A43C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A41B491284FC29E0054A43C /* Assets.xcassets */; };
+		2A41B496284FC29E0054A43C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A41B495284FC29E0054A43C /* Preview Assets.xcassets */; };
+		2A41B4A0284FC29E0054A43C /* PAMOVATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B49F284FC29E0054A43C /* PAMOVATests.swift */; };
+		2A41B4AA284FC29E0054A43C /* PAMOVAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4A9284FC29E0054A43C /* PAMOVAUITests.swift */; };
+		2A41B4AC284FC29E0054A43C /* PAMOVAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4AB284FC29E0054A43C /* PAMOVAUITestsLaunchTests.swift */; };
+		2A41B4BA284FC2BF0054A43C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4B9284FC2BF0054A43C /* Model.swift */; };
+		2A41B4BD284FC2FC0054A43C /* DLab in Frameworks */ = {isa = PBXBuildFile; productRef = 2A41B4BC284FC2FC0054A43C /* DLab */; };
+		2A41B4BF284FCBA30054A43C /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4BE284FCBA30054A43C /* Defaults.swift */; };
+		2A41B4C0284FCBA30054A43C /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4BE284FCBA30054A43C /* Defaults.swift */; };
+		2A41B4C2284FD2490054A43C /* AnalysisType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4C1284FD2490054A43C /* AnalysisType.swift */; };
+		2A41B4C3284FD2490054A43C /* AnalysisType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4C1284FD2490054A43C /* AnalysisType.swift */; };
+		2A41B4C5284FD97D0054A43C /* AnalysisMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4C4284FD97D0054A43C /* AnalysisMenuView.swift */; };
+		2A41B4C6284FD97D0054A43C /* AnalysisMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4C4284FD97D0054A43C /* AnalysisMenuView.swift */; };
+		2ACD2A52284FDFA40042E055 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD2A51284FDFA40042E055 /* MapView.swift */; };
+		2ACD2A54284FDFD00042E055 /* FamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD2A53284FDFD00042E055 /* FamilyView.swift */; };
+		2ACD2A56284FDFD60042E055 /* DiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD2A55284FDFD60042E055 /* DiversityView.swift */; };
+		2ACD2A58284FDFDC0042E055 /* StrucureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD2A57284FDFDC0042E055 /* StrucureView.swift */; };
+		2ACD2A5A284FDFE70042E055 /* PopgraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD2A59284FDFE70042E055 /* PopgraphView.swift */; };
+		2ACD2A5D284FF18E0042E055 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD2A5C284FF18E0042E055 /* DetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A41B49C284FC29E0054A43C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A41B482284FC29D0054A43C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A41B489284FC29D0054A43C;
+			remoteInfo = PAMOVA;
+		};
+		2A41B4A6284FC29E0054A43C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A41B482284FC29D0054A43C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A41B489284FC29D0054A43C;
+			remoteInfo = PAMOVA;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A41B48A284FC29D0054A43C /* PAMOVA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PAMOVA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A41B48D284FC29D0054A43C /* PAMOVAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAMOVAApp.swift; sourceTree = "<group>"; };
+		2A41B48F284FC29D0054A43C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2A41B491284FC29E0054A43C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A41B493284FC29E0054A43C /* PAMOVA.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PAMOVA.entitlements; sourceTree = "<group>"; };
+		2A41B495284FC29E0054A43C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A41B49B284FC29E0054A43C /* PAMOVATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAMOVATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A41B49F284FC29E0054A43C /* PAMOVATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAMOVATests.swift; sourceTree = "<group>"; };
+		2A41B4A5284FC29E0054A43C /* PAMOVAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PAMOVAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A41B4A9284FC29E0054A43C /* PAMOVAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAMOVAUITests.swift; sourceTree = "<group>"; };
+		2A41B4AB284FC29E0054A43C /* PAMOVAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PAMOVAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A41B4B9284FC2BF0054A43C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2A41B4BE284FCBA30054A43C /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		2A41B4C1284FD2490054A43C /* AnalysisType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisType.swift; sourceTree = "<group>"; };
+		2A41B4C4284FD97D0054A43C /* AnalysisMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisMenuView.swift; sourceTree = "<group>"; };
+		2ACD2A51284FDFA40042E055 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2ACD2A53284FDFD00042E055 /* FamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyView.swift; sourceTree = "<group>"; };
+		2ACD2A55284FDFD60042E055 /* DiversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityView.swift; sourceTree = "<group>"; };
+		2ACD2A57284FDFDC0042E055 /* StrucureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrucureView.swift; sourceTree = "<group>"; };
+		2ACD2A59284FDFE70042E055 /* PopgraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopgraphView.swift; sourceTree = "<group>"; };
+		2ACD2A5C284FF18E0042E055 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2ACD2A5E284FFA5F0042E055 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2ACD2A5F284FFA5F0042E055 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A41B487284FC29D0054A43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A41B4BD284FC2FC0054A43C /* DLab in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A41B498284FC29E0054A43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A41B4A2284FC29E0054A43C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A41B481284FC29D0054A43C = {
+			isa = PBXGroup;
+			children = (
+				2A41B48C284FC29D0054A43C /* PAMOVA */,
+				2ACD2A5F284FFA5F0042E055 /* LICENSE */,
+				2ACD2A5E284FFA5F0042E055 /* README.md */,
+				2A41B49E284FC29E0054A43C /* PAMOVATests */,
+				2A41B4A8284FC29E0054A43C /* PAMOVAUITests */,
+				2A41B48B284FC29D0054A43C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A41B48B284FC29D0054A43C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A41B48A284FC29D0054A43C /* PAMOVA.app */,
+				2A41B49B284FC29E0054A43C /* PAMOVATests.xctest */,
+				2A41B4A5284FC29E0054A43C /* PAMOVAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A41B48C284FC29D0054A43C /* PAMOVA */ = {
+			isa = PBXGroup;
+			children = (
+				2A41B48D284FC29D0054A43C /* PAMOVAApp.swift */,
+				2A41B48F284FC29D0054A43C /* ContentView.swift */,
+				2A41B4B8284FC2B60054A43C /* Model */,
+				2ACD2A5B284FE0360042E055 /* Views */,
+				2A41B491284FC29E0054A43C /* Assets.xcassets */,
+				2A41B493284FC29E0054A43C /* PAMOVA.entitlements */,
+				2A41B494284FC29E0054A43C /* Preview Content */,
+			);
+			path = PAMOVA;
+			sourceTree = "<group>";
+		};
+		2A41B494284FC29E0054A43C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A41B495284FC29E0054A43C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A41B49E284FC29E0054A43C /* PAMOVATests */ = {
+			isa = PBXGroup;
+			children = (
+				2A41B49F284FC29E0054A43C /* PAMOVATests.swift */,
+			);
+			path = PAMOVATests;
+			sourceTree = "<group>";
+		};
+		2A41B4A8284FC29E0054A43C /* PAMOVAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2A41B4A9284FC29E0054A43C /* PAMOVAUITests.swift */,
+				2A41B4AB284FC29E0054A43C /* PAMOVAUITestsLaunchTests.swift */,
+			);
+			path = PAMOVAUITests;
+			sourceTree = "<group>";
+		};
+		2A41B4B8284FC2B60054A43C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A41B4B9284FC2BF0054A43C /* Model.swift */,
+				2A41B4BE284FCBA30054A43C /* Defaults.swift */,
+				2A41B4C1284FD2490054A43C /* AnalysisType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2ACD2A5B284FE0360042E055 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A41B4C4284FD97D0054A43C /* AnalysisMenuView.swift */,
+				2ACD2A51284FDFA40042E055 /* MapView.swift */,
+				2ACD2A53284FDFD00042E055 /* FamilyView.swift */,
+				2ACD2A55284FDFD60042E055 /* DiversityView.swift */,
+				2ACD2A57284FDFDC0042E055 /* StrucureView.swift */,
+				2ACD2A59284FDFE70042E055 /* PopgraphView.swift */,
+				2ACD2A5C284FF18E0042E055 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A41B489284FC29D0054A43C /* PAMOVA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A41B4AF284FC29E0054A43C /* Build configuration list for PBXNativeTarget "PAMOVA" */;
+			buildPhases = (
+				2A41B486284FC29D0054A43C /* Sources */,
+				2A41B487284FC29D0054A43C /* Frameworks */,
+				2A41B488284FC29D0054A43C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PAMOVA;
+			packageProductDependencies = (
+				2A41B4BC284FC2FC0054A43C /* DLab */,
+			);
+			productName = PAMOVA;
+			productReference = 2A41B48A284FC29D0054A43C /* PAMOVA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A41B49A284FC29E0054A43C /* PAMOVATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A41B4B2284FC29E0054A43C /* Build configuration list for PBXNativeTarget "PAMOVATests" */;
+			buildPhases = (
+				2A41B497284FC29E0054A43C /* Sources */,
+				2A41B498284FC29E0054A43C /* Frameworks */,
+				2A41B499284FC29E0054A43C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A41B49D284FC29E0054A43C /* PBXTargetDependency */,
+			);
+			name = PAMOVATests;
+			productName = PAMOVATests;
+			productReference = 2A41B49B284FC29E0054A43C /* PAMOVATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2A41B4A4284FC29E0054A43C /* PAMOVAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A41B4B5284FC29E0054A43C /* Build configuration list for PBXNativeTarget "PAMOVAUITests" */;
+			buildPhases = (
+				2A41B4A1284FC29E0054A43C /* Sources */,
+				2A41B4A2284FC29E0054A43C /* Frameworks */,
+				2A41B4A3284FC29E0054A43C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A41B4A7284FC29E0054A43C /* PBXTargetDependency */,
+			);
+			name = PAMOVAUITests;
+			productName = PAMOVAUITests;
+			productReference = 2A41B4A5284FC29E0054A43C /* PAMOVAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A41B482284FC29D0054A43C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2A41B489284FC29D0054A43C = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					2A41B49A284FC29E0054A43C = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2A41B489284FC29D0054A43C;
+					};
+					2A41B4A4284FC29E0054A43C = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 2A41B489284FC29D0054A43C;
+					};
+				};
+			};
+			buildConfigurationList = 2A41B485284FC29D0054A43C /* Build configuration list for PBXProject "PAMOVA" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A41B481284FC29D0054A43C;
+			packageReferences = (
+				2A41B4BB284FC2FC0054A43C /* XCRemoteSwiftPackageReference "dlab" */,
+			);
+			productRefGroup = 2A41B48B284FC29D0054A43C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A41B489284FC29D0054A43C /* PAMOVA */,
+				2A41B49A284FC29E0054A43C /* PAMOVATests */,
+				2A41B4A4284FC29E0054A43C /* PAMOVAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A41B488284FC29D0054A43C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A41B496284FC29E0054A43C /* Preview Assets.xcassets in Resources */,
+				2A41B492284FC29E0054A43C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A41B499284FC29E0054A43C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A41B4A3284FC29E0054A43C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A41B486284FC29D0054A43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACD2A56284FDFD60042E055 /* DiversityView.swift in Sources */,
+				2ACD2A5D284FF18E0042E055 /* DetailView.swift in Sources */,
+				2A41B4BA284FC2BF0054A43C /* Model.swift in Sources */,
+				2ACD2A52284FDFA40042E055 /* MapView.swift in Sources */,
+				2A41B4C2284FD2490054A43C /* AnalysisType.swift in Sources */,
+				2A41B4C5284FD97D0054A43C /* AnalysisMenuView.swift in Sources */,
+				2A41B4BF284FCBA30054A43C /* Defaults.swift in Sources */,
+				2ACD2A54284FDFD00042E055 /* FamilyView.swift in Sources */,
+				2A41B490284FC29D0054A43C /* ContentView.swift in Sources */,
+				2ACD2A58284FDFDC0042E055 /* StrucureView.swift in Sources */,
+				2ACD2A5A284FDFE70042E055 /* PopgraphView.swift in Sources */,
+				2A41B48E284FC29D0054A43C /* PAMOVAApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A41B497284FC29E0054A43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A41B4C6284FD97D0054A43C /* AnalysisMenuView.swift in Sources */,
+				2A41B4A0284FC29E0054A43C /* PAMOVATests.swift in Sources */,
+				2A41B4C3284FD2490054A43C /* AnalysisType.swift in Sources */,
+				2A41B4C0284FCBA30054A43C /* Defaults.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A41B4A1284FC29E0054A43C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A41B4AC284FC29E0054A43C /* PAMOVAUITestsLaunchTests.swift in Sources */,
+				2A41B4AA284FC29E0054A43C /* PAMOVAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A41B49D284FC29E0054A43C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A41B489284FC29D0054A43C /* PAMOVA */;
+			targetProxy = 2A41B49C284FC29E0054A43C /* PBXContainerItemProxy */;
+		};
+		2A41B4A7284FC29E0054A43C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A41B489284FC29D0054A43C /* PAMOVA */;
+			targetProxy = 2A41B4A6284FC29E0054A43C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A41B4AD284FC29E0054A43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A41B4AE284FC29E0054A43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2A41B4B0284FC29E0054A43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PAMOVA/PAMOVA.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PAMOVA/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.dlab.PAMOVA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A41B4B1284FC29E0054A43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PAMOVA/PAMOVA.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PAMOVA/Preview Content\"";
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.dlab.PAMOVA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2A41B4B3284FC29E0054A43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.dlab.PAMOVATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAMOVA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PAMOVA";
+			};
+			name = Debug;
+		};
+		2A41B4B4284FC29E0054A43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.dlab.PAMOVATests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PAMOVA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PAMOVA";
+			};
+			name = Release;
+		};
+		2A41B4B6284FC29E0054A43C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.dlab.PAMOVAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PAMOVA;
+			};
+			name = Debug;
+		};
+		2A41B4B7284FC29E0054A43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3L9D67FVN7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dyerlab.dlab.PAMOVAUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PAMOVA;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A41B485284FC29D0054A43C /* Build configuration list for PBXProject "PAMOVA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A41B4AD284FC29E0054A43C /* Debug */,
+				2A41B4AE284FC29E0054A43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A41B4AF284FC29E0054A43C /* Build configuration list for PBXNativeTarget "PAMOVA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A41B4B0284FC29E0054A43C /* Debug */,
+				2A41B4B1284FC29E0054A43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A41B4B2284FC29E0054A43C /* Build configuration list for PBXNativeTarget "PAMOVATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A41B4B3284FC29E0054A43C /* Debug */,
+				2A41B4B4284FC29E0054A43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A41B4B5284FC29E0054A43C /* Build configuration list for PBXNativeTarget "PAMOVAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A41B4B6284FC29E0054A43C /* Debug */,
+				2A41B4B7284FC29E0054A43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A41B4BB284FC2FC0054A43C /* XCRemoteSwiftPackageReference "dlab" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dyerlab/dlab";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A41B4BC284FC2FC0054A43C /* DLab */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A41B4BB284FC2FC0054A43C /* XCRemoteSwiftPackageReference "dlab" */;
+			productName = DLab;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2A41B482284FC29D0054A43C /* Project object */;
+}

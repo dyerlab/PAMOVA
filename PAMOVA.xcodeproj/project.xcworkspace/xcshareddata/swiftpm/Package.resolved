@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "dlab",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dyerlab/dlab",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c896e69b935c73fc6f913010efcd17a67aa9b3f6"
+      }
+    }
+  ],
+  "version" : 2
+}
