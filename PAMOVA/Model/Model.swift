@@ -6,16 +6,22 @@
 //
 
 import DLab
+#if os(iOS)
+import UIKit
+#endif
 import MapKit
 import Foundation
 
 class Model: ObservableObject {
     
     @Published var families = Set<Stratum>()
+    @Published var species: String = ""
+    @Published var image: UIImage?
     
     var familyID: [String] {
         return self.families.compactMap( { $0.mother?.strata["ID"] } ).sorted()
     }
+    
     
     var region: MKCoordinateRegion {
         var coords = [CLLocationCoordinate2D]()
@@ -30,8 +36,12 @@ class Model: ObservableObject {
     }
     
     init() {
-        self.families.insert( Stratum.DefaultFamily() )
+        if let img = UIImage(systemName: "tree") {
+            self.image = img
+        }
     }
+    
+    
     
     
     
@@ -45,8 +55,9 @@ class Model: ObservableObject {
 
 extension Model {
     
-    func family(for identifier: String ) -> Stratum? {
-        return families.first(where: { $0.mother!.strata["ID",default: ""] == identifier } )
+    func family(for identifier: String ) -> Stratum {
+        guard let ret = families.first(where: { $0.mother!.strata["ID",default: ""] == identifier } ) else { return Stratum() }
+        return ret 
     }
     
 }

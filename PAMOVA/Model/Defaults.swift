@@ -6,10 +6,8 @@
 //
 
 import DLab
+import UIKit
 import Foundation
-
-
-
 
 extension Model {
     
@@ -960,8 +958,6 @@ extension Model {
             for i in 5 ..< 14 {
                 ind.loci[ headers[i] ] = Genotype(raw: row[i])
             }
-            
-            
             // Find stratum with mother that has this id value
             if let theStrata = strata.first(where: {$0.mother?.strata["ID"] == ind.strata["ID"] }) {
                 theStrata.addOffspring(offspring: ind )
@@ -970,15 +966,16 @@ extension Model {
             else {
                 strata.insert( Stratum(mom: ind) )
             }
-            
-            
-            
-            
         }
-        
         
         let model = Model()
         model.families = strata
+        model.species = "Cornus florida"
+        
+        if let img = UIImage(named: "dogwood") {
+            model.image = img
+        }
+
         return model 
         
     }

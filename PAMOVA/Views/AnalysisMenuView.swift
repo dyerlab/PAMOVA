@@ -11,21 +11,23 @@ struct AnalysisMenuView: View {
     let analysis: AnalysisType
     
     var body: some View {
-        HStack {
-            Image(systemName: analysis.imageName)
-                .resizable()
-                .frame( width:40, height:40)
-                .foregroundColor( Color.secondary )
-            VStack(alignment: .leading) {
-                Text( analysis.name )
-                    .font(.headline)
-                Text( analysis.subtitle )
-                    .font( .subheadline)
+        VStack(alignment: .leading) {
+            HStack {
+                Image(systemName: analysis.imageName)
+                    .resizable()
+                    .frame(width: 45, height: 45)
+                    .foregroundColor( Color.secondary )
+                VStack(alignment: .leading) {
+                    Text( analysis.name )
+                        .font(.headline)
+                    Text( analysis.subtitle )
+                        .font( .subheadline)
+                }
             }
-            
         }
     }
 }
+
 
 struct AnalysisRow_Previews: PreviewProvider {
     static var previews: some View {

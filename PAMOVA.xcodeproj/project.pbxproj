@@ -22,6 +22,15 @@
 		2A41B4C3284FD2490054A43C /* AnalysisType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4C1284FD2490054A43C /* AnalysisType.swift */; };
 		2A41B4C5284FD97D0054A43C /* AnalysisMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4C4284FD97D0054A43C /* AnalysisMenuView.swift */; };
 		2A41B4C6284FD97D0054A43C /* AnalysisMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4C4284FD97D0054A43C /* AnalysisMenuView.swift */; };
+		2A8C504628501DA5007A33AE /* SpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C504528501DA5007A33AE /* SpeciesView.swift */; };
+		2A8C504828501E4C007A33AE /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C504728501E4C007A33AE /* NSImage.swift */; };
+		2A8FDAFB2850B09300D947A8 /* GenotypeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FDAFA2850B09300D947A8 /* GenotypeRowView.swift */; };
+		2A8FDAFD2850BB9900D947A8 /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FDAFC2850BB9900D947A8 /* Individual.swift */; };
+		2A8FDAFE2850BB9900D947A8 /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FDAFC2850BB9900D947A8 /* Individual.swift */; };
+		2A8FDB002850C5FC00D947A8 /* Stratum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FDAFF2850C5FC00D947A8 /* Stratum.swift */; };
+		2A8FDB012850C5FC00D947A8 /* Stratum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FDAFF2850C5FC00D947A8 /* Stratum.swift */; };
+		2A8FDB032850C8FC00D947A8 /* FamilyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FDB022850C8FC00D947A8 /* FamilyTableView.swift */; };
+		2A8FDB042850C8FC00D947A8 /* FamilyTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FDB022850C8FC00D947A8 /* FamilyTableView.swift */; };
 		2ACD2A52284FDFA40042E055 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD2A51284FDFA40042E055 /* MapView.swift */; };
 		2ACD2A54284FDFD00042E055 /* FamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD2A53284FDFD00042E055 /* FamilyView.swift */; };
 		2ACD2A56284FDFD60042E055 /* DiversityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACD2A55284FDFD60042E055 /* DiversityView.swift */; };
@@ -63,6 +72,12 @@
 		2A41B4BE284FCBA30054A43C /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 		2A41B4C1284FD2490054A43C /* AnalysisType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisType.swift; sourceTree = "<group>"; };
 		2A41B4C4284FD97D0054A43C /* AnalysisMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisMenuView.swift; sourceTree = "<group>"; };
+		2A8C504528501DA5007A33AE /* SpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesView.swift; sourceTree = "<group>"; };
+		2A8C504728501E4C007A33AE /* NSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
+		2A8FDAFA2850B09300D947A8 /* GenotypeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeRowView.swift; sourceTree = "<group>"; };
+		2A8FDAFC2850BB9900D947A8 /* Individual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Individual.swift; sourceTree = "<group>"; };
+		2A8FDAFF2850C5FC00D947A8 /* Stratum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stratum.swift; sourceTree = "<group>"; };
+		2A8FDB022850C8FC00D947A8 /* FamilyTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyTableView.swift; sourceTree = "<group>"; };
 		2ACD2A51284FDFA40042E055 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		2ACD2A53284FDFD00042E055 /* FamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyView.swift; sourceTree = "<group>"; };
 		2ACD2A55284FDFD60042E055 /* DiversityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiversityView.swift; sourceTree = "<group>"; };
@@ -126,6 +141,7 @@
 			children = (
 				2A41B48D284FC29D0054A43C /* PAMOVAApp.swift */,
 				2A41B48F284FC29D0054A43C /* ContentView.swift */,
+				2A8C504428501D42007A33AE /* Extensions */,
 				2A41B4B8284FC2B60054A43C /* Model */,
 				2ACD2A5B284FE0360042E055 /* Views */,
 				2A41B491284FC29E0054A43C /* Assets.xcassets */,
@@ -170,16 +186,45 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		2A5E30492852283500234A03 /* DiversityViews */ = {
+			isa = PBXGroup;
+			children = (
+				2ACD2A55284FDFD60042E055 /* DiversityView.swift */,
+			);
+			path = DiversityViews;
+			sourceTree = "<group>";
+		};
+		2A8C504428501D42007A33AE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2A8C504728501E4C007A33AE /* NSImage.swift */,
+				2A8FDAFC2850BB9900D947A8 /* Individual.swift */,
+				2A8FDAFF2850C5FC00D947A8 /* Stratum.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2A8FDAF92850B07B00D947A8 /* FamilyViews */ = {
+			isa = PBXGroup;
+			children = (
+				2ACD2A53284FDFD00042E055 /* FamilyView.swift */,
+				2A8FDAFA2850B09300D947A8 /* GenotypeRowView.swift */,
+				2A8FDB022850C8FC00D947A8 /* FamilyTableView.swift */,
+			);
+			path = FamilyViews;
+			sourceTree = "<group>";
+		};
 		2ACD2A5B284FE0360042E055 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				2A41B4C4284FD97D0054A43C /* AnalysisMenuView.swift */,
 				2ACD2A51284FDFA40042E055 /* MapView.swift */,
-				2ACD2A53284FDFD00042E055 /* FamilyView.swift */,
-				2ACD2A55284FDFD60042E055 /* DiversityView.swift */,
+				2A8FDAF92850B07B00D947A8 /* FamilyViews */,
+				2A5E30492852283500234A03 /* DiversityViews */,
 				2ACD2A57284FDFDC0042E055 /* StrucureView.swift */,
 				2ACD2A59284FDFE70042E055 /* PopgraphView.swift */,
 				2ACD2A5C284FF18E0042E055 /* DetailView.swift */,
+				2A8C504528501DA5007A33AE /* SpeciesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -323,6 +368,10 @@
 				2ACD2A56284FDFD60042E055 /* DiversityView.swift in Sources */,
 				2ACD2A5D284FF18E0042E055 /* DetailView.swift in Sources */,
 				2A41B4BA284FC2BF0054A43C /* Model.swift in Sources */,
+				2A8C504628501DA5007A33AE /* SpeciesView.swift in Sources */,
+				2A8FDAFD2850BB9900D947A8 /* Individual.swift in Sources */,
+				2A8FDB002850C5FC00D947A8 /* Stratum.swift in Sources */,
+				2A8C504828501E4C007A33AE /* NSImage.swift in Sources */,
 				2ACD2A52284FDFA40042E055 /* MapView.swift in Sources */,
 				2A41B4C2284FD2490054A43C /* AnalysisType.swift in Sources */,
 				2A41B4C5284FD97D0054A43C /* AnalysisMenuView.swift in Sources */,
@@ -332,6 +381,8 @@
 				2ACD2A58284FDFDC0042E055 /* StrucureView.swift in Sources */,
 				2ACD2A5A284FDFE70042E055 /* PopgraphView.swift in Sources */,
 				2A41B48E284FC29D0054A43C /* PAMOVAApp.swift in Sources */,
+				2A8FDAFB2850B09300D947A8 /* GenotypeRowView.swift in Sources */,
+				2A8FDB032850C8FC00D947A8 /* FamilyTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +392,11 @@
 			files = (
 				2A41B4C6284FD97D0054A43C /* AnalysisMenuView.swift in Sources */,
 				2A41B4A0284FC29E0054A43C /* PAMOVATests.swift in Sources */,
+				2A8FDB042850C8FC00D947A8 /* FamilyTableView.swift in Sources */,
 				2A41B4C3284FD2490054A43C /* AnalysisType.swift in Sources */,
 				2A41B4C0284FCBA30054A43C /* Defaults.swift in Sources */,
+				2A8FDB012850C5FC00D947A8 /* Stratum.swift in Sources */,
+				2A8FDAFE2850BB9900D947A8 /* Individual.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
