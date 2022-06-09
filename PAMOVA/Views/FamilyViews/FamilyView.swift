@@ -18,34 +18,30 @@ struct FamilyView: View {
     
     var body: some View {
         VStack{
-            
+            FamilyTableView(stratum: model.family(for: familyNames[current]))
+            Spacer()
+        }
+        .toolbar {
             // Heading part
-            HStack{
-                
+
                 Button(action: {
                     current = current != 0 ? current - 1 : familyNames.count - 1
                 }, label: {
                     Image(systemName: "arrow.left.square")
-                        .font(.largeTitle)
                 })
                 .keyboardShortcut( KeyEquivalent.leftArrow,
                                    modifiers: [])
-                Spacer()
-                Text("\(familyNames[ current ])")
-                    .font(.largeTitle)
-                Spacer()
                 Button(action: {
                     current = current < familyNames.count-1 ? current + 1 : 0
                 }, label: {
                     Image(systemName: "arrow.right.square")
-                        .font(.largeTitle)
                 })
-                .keyboardShortcut( KeyEquivalent.leftArrow,
+                .keyboardShortcut( KeyEquivalent.rightArrow,
                                    modifiers: [])
-            }
-            
-            FamilyTableView(stratum: model.family(for: familyNames[current]))
                 
+                
+            Spacer()
+            Text("\(familyNames[ current ])")
             
         }
     }

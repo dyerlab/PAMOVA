@@ -22,6 +22,8 @@
 		2A41B4C3284FD2490054A43C /* AnalysisType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4C1284FD2490054A43C /* AnalysisType.swift */; };
 		2A41B4C5284FD97D0054A43C /* AnalysisMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4C4284FD97D0054A43C /* AnalysisMenuView.swift */; };
 		2A41B4C6284FD97D0054A43C /* AnalysisMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A41B4C4284FD97D0054A43C /* AnalysisMenuView.swift */; };
+		2A8996F72852419E009A901A /* StratumAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8996F62852419E009A901A /* StratumAnnotationView.swift */; };
+		2A8996F9285244B6009A901A /* TestTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8996F8285244B6009A901A /* TestTable.swift */; };
 		2A8C504628501DA5007A33AE /* SpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C504528501DA5007A33AE /* SpeciesView.swift */; };
 		2A8C504828501E4C007A33AE /* NSImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8C504728501E4C007A33AE /* NSImage.swift */; };
 		2A8FDAFB2850B09300D947A8 /* GenotypeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8FDAFA2850B09300D947A8 /* GenotypeRowView.swift */; };
@@ -72,6 +74,8 @@
 		2A41B4BE284FCBA30054A43C /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
 		2A41B4C1284FD2490054A43C /* AnalysisType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisType.swift; sourceTree = "<group>"; };
 		2A41B4C4284FD97D0054A43C /* AnalysisMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisMenuView.swift; sourceTree = "<group>"; };
+		2A8996F62852419E009A901A /* StratumAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StratumAnnotationView.swift; sourceTree = "<group>"; };
+		2A8996F8285244B6009A901A /* TestTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTable.swift; sourceTree = "<group>"; };
 		2A8C504528501DA5007A33AE /* SpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesView.swift; sourceTree = "<group>"; };
 		2A8C504728501E4C007A33AE /* NSImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSImage.swift; sourceTree = "<group>"; };
 		2A8FDAFA2850B09300D947A8 /* GenotypeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenotypeRowView.swift; sourceTree = "<group>"; };
@@ -194,6 +198,15 @@
 			path = DiversityViews;
 			sourceTree = "<group>";
 		};
+		2A8996F528524181009A901A /* MapViews */ = {
+			isa = PBXGroup;
+			children = (
+				2ACD2A51284FDFA40042E055 /* MapView.swift */,
+				2A8996F62852419E009A901A /* StratumAnnotationView.swift */,
+			);
+			path = MapViews;
+			sourceTree = "<group>";
+		};
 		2A8C504428501D42007A33AE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +223,7 @@
 				2ACD2A53284FDFD00042E055 /* FamilyView.swift */,
 				2A8FDAFA2850B09300D947A8 /* GenotypeRowView.swift */,
 				2A8FDB022850C8FC00D947A8 /* FamilyTableView.swift */,
+				2A8996F8285244B6009A901A /* TestTable.swift */,
 			);
 			path = FamilyViews;
 			sourceTree = "<group>";
@@ -218,7 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				2A41B4C4284FD97D0054A43C /* AnalysisMenuView.swift */,
-				2ACD2A51284FDFA40042E055 /* MapView.swift */,
+				2A8996F528524181009A901A /* MapViews */,
 				2A8FDAF92850B07B00D947A8 /* FamilyViews */,
 				2A5E30492852283500234A03 /* DiversityViews */,
 				2ACD2A57284FDFDC0042E055 /* StrucureView.swift */,
@@ -375,6 +389,7 @@
 				2ACD2A52284FDFA40042E055 /* MapView.swift in Sources */,
 				2A41B4C2284FD2490054A43C /* AnalysisType.swift in Sources */,
 				2A41B4C5284FD97D0054A43C /* AnalysisMenuView.swift in Sources */,
+				2A8996F72852419E009A901A /* StratumAnnotationView.swift in Sources */,
 				2A41B4BF284FCBA30054A43C /* Defaults.swift in Sources */,
 				2ACD2A54284FDFD00042E055 /* FamilyView.swift in Sources */,
 				2A41B490284FC29D0054A43C /* ContentView.swift in Sources */,
@@ -382,6 +397,7 @@
 				2ACD2A5A284FDFE70042E055 /* PopgraphView.swift in Sources */,
 				2A41B48E284FC29D0054A43C /* PAMOVAApp.swift in Sources */,
 				2A8FDAFB2850B09300D947A8 /* GenotypeRowView.swift in Sources */,
+				2A8996F9285244B6009A901A /* TestTable.swift in Sources */,
 				2A8FDB032850C8FC00D947A8 /* FamilyTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,8 +565,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -581,8 +596,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
